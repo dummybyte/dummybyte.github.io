@@ -7,7 +7,7 @@ highlighter: pygments
 gems: [jekyll-paginate]
 
 # Permalinks
-permalink:        /blog/:year/:month/:day/:title
+permalink:        /blog/:day-:month-:year/:title/
 
 # Setup
 title:            'Hello World!!!'
@@ -54,7 +54,7 @@ gahandler: 'UA-52149651-1'
 footersvg: 'true'
 
 # Disqus
-disqushandler: 'testingblogo'
+disqushandler: ''
 
 # Blog Configurations
 paginate: 10 # Posts per page on the blog index
