@@ -1,1 +1,65 @@
-theme: jekyll-theme-minimal
+# Configurations
+markdown: kramdown
+markdown_ext:  markdown,mkdown,mkdn,mkd,md
+highlighter: pygments
+
+# Needed for backward compatibility
+gems: [jekyll-paginate]
+
+# Permalinks
+permalink:        /blog/:year/:month/:day/:title
+
+# Setup
+title:            'Hello World!!!'
+tagline:          'My Home Page'
+description:      'Home Page'
+url:              'https://dummybyte.github.io'
+baseurl:          ''
+
+# Navigation
+navigation:
+- text: About
+  url: /about/
+- text: Blog
+  url: /blog/
+- text: Tags
+  url: /tags/
+- text: Archive
+  url : /archive/
+- text: Search
+  url: /search/
+
+
+# Author Details
+author:         'Arvind Pandey'
+
+#Social Media links (Use complete URL except for email)
+dribbble:
+email:
+facebook:       ''
+flickr:
+github:         ''
+gplus:          ''
+instagram:
+pinterest:
+linkedin:       ''
+rss:
+stackoverflow:  ''
+twitter:        ''
+
+# Google Analytics
+gahandler: 'UA-52149651-1'
+
+#if footersvg is 'true' the social media links will be shown top on the copy right in the footer
+footersvg: 'true'
+
+# Disqus
+disqushandler: 'testingblogo'
+
+# Blog Configurations
+paginate: 10 # Posts per page on the blog index
+paginate_path: '/blog/page:num'
+destination: ./_site
+
+# Custom vars
+version:          0.9x beta 2
